@@ -34,6 +34,24 @@
         clear: both;
         padding-top: @gutter;
         .clearfix();
+        .post-author {
+            padding-top: @gutter/4+6;
+            width: 100%;
+            clear: both;
+            float: none;
+            img {
+                @size: 30px;
+                width: @size;
+                height: @size;
+            }
+            p {
+                padding: 4px 0 0 10px;
+                .medium();
+                span {
+                    display: inline;
+                }
+            }
+        }        
     }
     .post-video {
         padding: @gutter/2 0 @gutter/2 0;

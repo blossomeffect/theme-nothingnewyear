@@ -683,6 +683,24 @@ a.btn.btn-mini:hover {
   clear: both;
   height: 0;
 }
+.post .post-footer .post-author {
+  padding-top: 18.5px;
+  width: 100%;
+  clear: both;
+  float: none;
+}
+.post .post-footer .post-author img {
+  width: 30px;
+  height: 30px;
+}
+.post .post-footer .post-author p {
+  padding: 4px 0 0 10px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.post .post-footer .post-author p span {
+  display: inline;
+}
 .post .post-video {
   padding: 25px 0 25px 0;
 }
