@@ -1088,7 +1088,6 @@ div.posts h3 a.like:hover span {
   width: 100%;
   clear: both;
   float: none;
-  border: 1px solid red;
 }
 .post-author:after {
   visibility: hidden;
