@@ -641,6 +641,7 @@ a.btn.btn-mini:hover {
   background-color: #636363;
 }
 .post {
+  font-size: 1.15rem;
   display: block;
   clear: both;
   padding: 125px 0 0 0;
