@@ -38,7 +38,7 @@
 
     {% else %}
     <header{% if is_post %} class="short"{% endif %}>
-      <div class="bg"></div>
+      <div class="bg" style="background-image: url({{ }})"></div>
       <div class="overlay"></div>
       
       <!-- 
@@ -255,7 +255,7 @@
       var cover = {% if site.cover_photo %}'{{ site.cover_photo }}'{% else %}"{{ assets('images/cover-photo-1.jpg') }}"{% endif %};
       (function(d, t) {
           var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-          g.src = "{{ assets('js/expanse.min.js') }}";
+          g.src = "{{ assets('js/nothingnewyear.min.js') }}";
           s.parentNode.insertBefore(g, s);
       }(document, 'script'));
     </script>
