@@ -1084,7 +1084,7 @@ div.posts h3 a.like:hover span {
 }
 .post-author {
   display: inline-block;
-  padding-top: 25px;
+  padding-top: 16.66666667px;
   width: 100%;
   clear: both;
   float: none;
