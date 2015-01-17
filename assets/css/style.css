@@ -683,24 +683,6 @@ a.btn.btn-mini:hover {
   clear: both;
   height: 0;
 }
-.post .post-footer .post-author {
-  padding-top: 18.5px;
-  width: 100%;
-  clear: both;
-  float: none;
-}
-.post .post-footer .post-author img {
-  width: 30px;
-  height: 30px;
-}
-.post .post-footer .post-author p {
-  padding: 4px 0 0 10px;
-  font-family: 'Roboto';
-  font-weight: 400;
-}
-.post .post-footer .post-author p span {
-  display: inline;
-}
 .post .post-video {
   padding: 25px 0 25px 0;
 }
@@ -867,49 +849,6 @@ a.btn.btn-mini:hover {
 .post-tags li a:hover {
   background-color: #37cca2;
 }
-/*
-.post-author {
-    cursor: default;
-    display: block;
-    width: 50%;
-    float: left;
-    text-align: left;
-    img {
-        @size: 45px;
-        display: block;
-        float: left;
-        width: @size;
-        height: @size;
-        .rounded(50%);
-        overflow: hidden;
-        img {
-            width: @size;
-            height: @size;
-        }
-    }
-    p {
-        float: left;
-        @size: 0.85rem;
-        font-size: @size;
-        padding: 0 0 0 20px;
-        margin: 0;
-        span {
-            font-weight: bold;
-            display: block;
-            &.post-date {
-                color: @lighttext;
-                .light();
-                font-size: @size;
-            }
-            &.post-author-name {
-                font-size: @size;
-                .medium();
-                color: @green;
-            }
-        }
-    }
-}
-*/
 .post-options {
   width: 50%;
   float: right;
@@ -1091,24 +1030,6 @@ div.posts div.item .post-content .post-pdf object {
   display: block;
   min-height: 400px;
 }
-div.posts div.item .post-author {
-  padding-top: 18.5px;
-  width: 100%;
-  clear: both;
-  float: none;
-}
-div.posts div.item .post-author img {
-  width: 30px;
-  height: 30px;
-}
-div.posts div.item .post-author p {
-  padding: 4px 0 0 10px;
-  font-family: 'Roboto';
-  font-weight: 400;
-}
-div.posts div.item .post-author p span {
-  display: inline;
-}
 div.posts div.item .dots {
   display: block;
   padding-top: 50px;
@@ -1160,6 +1081,25 @@ div.posts h3 a.like:hover {
 }
 div.posts h3 a.like:hover span {
   color: #37cca2;
+}
+.post-author {
+  padding-top: 18.5px;
+  width: 100%;
+  clear: both;
+  float: none;
+}
+.post-author img {
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.post-author p {
+  padding: 4px 0 0 10px;
+}
+.post-author p span {
+  display: inline;
 }
 h3.tag-header {
   padding-bottom: 50px;
