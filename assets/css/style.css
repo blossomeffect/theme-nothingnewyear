@@ -642,6 +642,7 @@ a.btn.btn-mini:hover {
 }
 .post {
   font-size: 1.15rem;
+  line-height: 1.7;
   display: block;
   clear: both;
   padding: 125px 0 0 0;
@@ -696,7 +697,7 @@ a.btn.btn-mini:hover {
 .post-content {
   display: block;
   /* find this in _assets/less/elements.less */
-  line-height: 1.6;
+  line-height: 1.7;
 }
 .post-content ul,
 .post-content ol,
