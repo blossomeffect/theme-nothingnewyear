@@ -73,13 +73,17 @@ div.posts {
   width: 100%;
   clear: both;
   float: none;
+  .clearfix();
+  border: 1px solid red;
   img {
     @size: 30px;
     width: @size;
     height: @size;
     .rounded(50%);
+    float: left;
   }
   p {
+    float: left;
     padding: 4px 0 0 10px;
     span {
       display: inline;

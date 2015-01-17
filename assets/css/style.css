@@ -1087,6 +1087,15 @@ div.posts h3 a.like:hover span {
   width: 100%;
   clear: both;
   float: none;
+  border: 1px solid red;
+}
+.post-author:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 .post-author img {
   width: 30px;
@@ -1094,8 +1103,10 @@ div.posts h3 a.like:hover span {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+  float: left;
 }
 .post-author p {
+  float: left;
   padding: 4px 0 0 10px;
 }
 .post-author p span {
