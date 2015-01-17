@@ -1083,7 +1083,7 @@ div.posts h3 a.like:hover span {
   color: #37cca2;
 }
 .post-author {
-  padding-top: 18.5px;
+  padding-top: 25px;
   width: 100%;
   clear: both;
   float: none;
@@ -1109,7 +1109,7 @@ div.posts h3 a.like:hover span {
   float: left;
   padding: 4px 0 0 10px;
   color: #afb7b5;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 .post-author p span {
   display: inline;
