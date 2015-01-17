@@ -695,6 +695,7 @@ a.btn.btn-mini:hover {
 .post-content {
   display: block;
   /* find this in _assets/less/elements.less */
+  line-height: 1.6;
 }
 .post-content ul,
 .post-content ol,
@@ -848,49 +849,49 @@ a.btn.btn-mini:hover {
 .post-tags li a:hover {
   background-color: #37cca2;
 }
+/*
 .post-author {
-  cursor: default;
-  display: block;
-  width: 50%;
-  float: left;
-  text-align: left;
+    cursor: default;
+    display: block;
+    width: 50%;
+    float: left;
+    text-align: left;
+    img {
+        @size: 45px;
+        display: block;
+        float: left;
+        width: @size;
+        height: @size;
+        .rounded(50%);
+        overflow: hidden;
+        img {
+            width: @size;
+            height: @size;
+        }
+    }
+    p {
+        float: left;
+        @size: 0.85rem;
+        font-size: @size;
+        padding: 0 0 0 20px;
+        margin: 0;
+        span {
+            font-weight: bold;
+            display: block;
+            &.post-date {
+                color: @lighttext;
+                .light();
+                font-size: @size;
+            }
+            &.post-author-name {
+                font-size: @size;
+                .medium();
+                color: @green;
+            }
+        }
+    }
 }
-.post-author img {
-  display: block;
-  float: left;
-  width: 45px;
-  height: 45px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  overflow: hidden;
-}
-.post-author img img {
-  width: 45px;
-  height: 45px;
-}
-.post-author p {
-  float: left;
-  font-size: 0.85rem;
-  padding: 0 0 0 20px;
-  margin: 0;
-}
-.post-author p span {
-  font-weight: bold;
-  display: block;
-}
-.post-author p span.post-date {
-  color: #afb7b5;
-  font-family: 'Roboto';
-  font-weight: 300;
-  font-size: 0.85rem;
-}
-.post-author p span.post-author-name {
-  font-size: 0.85rem;
-  font-family: 'Roboto';
-  font-weight: 400;
-  color: #37cca2;
-}
+*/
 .post-options {
   width: 50%;
   float: right;
